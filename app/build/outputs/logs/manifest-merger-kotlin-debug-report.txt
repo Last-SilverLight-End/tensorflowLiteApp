@@ -1,0 +1,367 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:17:1-54:12
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:17:1-54:12
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:17:1-54:12
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:17:1-54:12
+MERGED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:17:1-54:12
+MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\Changgeun\.gradle\caches\transforms-3\af22901f1f8b7a1972ebf3e46240a018\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ac7b4621c0f7b21c7927c72ff098f81b\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\033ba470d5c63de943fc6c9cd1628fee\transformed\jetified-lifecycle-runtime-ktx-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\b565833b065b0a3432191f55c6a6bd49\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Changgeun\.gradle\caches\transforms-3\87dd893cb9f7927bee08279d35e33582\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-view:1.0.0-alpha32] C:\Users\Changgeun\.gradle\caches\transforms-3\7b8a621d718e9c7d3dc28e8eeffee37e\transformed\jetified-camera-view-1.0.0-alpha32\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Changgeun\.gradle\caches\transforms-3\13b6a782a964e7caa1155c2e1c81f3d7\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:17:1-38:12
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\ddc4b07ca2f0e3463c278b26f85734fa\transformed\jetified-camera-lifecycle-1.1.0-alpha12\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\46728e5b0e20022e3a81cc836e779737\transformed\jetified-camera-core-1.1.0-alpha12\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-tflite-support:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\450a1e2cf950b6b748485a07d2835a5b\transformed\jetified-play-services-tflite-support-16.0.0-beta03\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tflite-java:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\c5de7aa4d3c9668b067217907cda4f4d\transformed\jetified-play-services-tflite-java-16.0.0-beta03\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Changgeun\.gradle\caches\transforms-3\1b640bde69cb36240ae84ce9cbb1f635\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Changgeun\.gradle\caches\transforms-3\c76fd838b6665dbd1bb0a70468952b43\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Changgeun\.gradle\caches\transforms-3\905554b970e7211da1f905a0e650fbba\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f50f08abc2017b48e24771e7d3df7e73\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f7659d8cf35088c3b815d6a5d948fa13\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\8f83d8b2f44b0b16c13521522884f461\transformed\jetified-activity-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\74fbd6e14677532c19dd596d999f394b\transformed\jetified-core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\9956c217432be8326fc650540191047e\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\3cabfb01f261f4c56b760f8264186547\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\54df326ac09e34ea085e75591b1db842\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d788aa24c19b7266c3a6cd38a537c6b7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\a6d89770d1c412bbe25d6f7d64d95bfe\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\Changgeun\.gradle\caches\transforms-3\b5b515102bee44fc6dff79acb5a7df7c\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f33df1b2c38e2038b9a87484735fd020\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\756f195e486be7b61732cfc9d47dbf5a\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\75be4897295b3aeada50ff899fb105dd\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\116364b37f139384424bde722aff2917\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\1ae6027347d4cd042ce7adad86af0651\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\9b433fe66f27985203d27b869af683a3\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Changgeun\.gradle\caches\transforms-3\d75e87c118de26c3fe2850e69b33dc3b\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Changgeun\.gradle\caches\transforms-3\4805d73964370903f7f39ac244155852\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\149eb335e4d6b0305b591a6eab3c44a1\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\58c4ea0a669573fa86828faa78cd86c0\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\a14668b95dae0221741ceeb8e396e91b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ca815ffe893438ddb9d420ef02c2efaa\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\5548a8793fd4c2a52b1dfabbec547af4\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\a4867bd8c91c118953505a5929ef965f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\83f26495205b7224c79726d01e34567c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.0.0-nightly-20220719.045912-252] C:\Users\Changgeun\.gradle\caches\transforms-3\5c3964c1a5ad433aa3a84edc22e1ca41\transformed\jetified-tensorflow-lite-support-api-0.0.0-nightly-20220719.045912-252\AndroidManifest.xml:2:1-5:12
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-20220719.054020-244] C:\Users\Changgeun\.gradle\caches\transforms-3\7465fef95c478b9442c832117019f8d3\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-20220719.054020-244\AndroidManifest.xml:2:1-12:12
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:0.0.0-nightly-20220719.054031-1] C:\Users\Changgeun\.gradle\caches\transforms-3\c6fa5d03c20e93562e126e17ec84e2b8\transformed\jetified-tensorflow-lite-gpu-api-0.0.0-nightly-20220719.054031-1\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Changgeun\.gradle\caches\transforms-3\243a427cab05e431ec539530c12b3e5d\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:19:5-71
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:17:1-54:12
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:18:5-51
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:18:5-51
+	android:versionCode
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:17:1-54:12
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:17:11-69
+uses-sdk
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:22:5-24:41
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:22:5-24:41
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:22:5-24:41
+MERGED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:22:5-24:41
+MERGED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\Changgeun\.gradle\caches\transforms-3\af22901f1f8b7a1972ebf3e46240a018\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.4] C:\Users\Changgeun\.gradle\caches\transforms-3\af22901f1f8b7a1972ebf3e46240a018\transformed\jetified-viewbinding-7.0.4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ac7b4621c0f7b21c7927c72ff098f81b\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ac7b4621c0f7b21c7927c72ff098f81b\transformed\jetified-activity-ktx-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\033ba470d5c63de943fc6c9cd1628fee\transformed\jetified-lifecycle-runtime-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\033ba470d5c63de943fc6c9cd1628fee\transformed\jetified-lifecycle-runtime-ktx-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\b565833b065b0a3432191f55c6a6bd49\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\b565833b065b0a3432191f55c6a6bd49\transformed\jetified-lifecycle-viewmodel-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Changgeun\.gradle\caches\transforms-3\87dd893cb9f7927bee08279d35e33582\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Changgeun\.gradle\caches\transforms-3\87dd893cb9f7927bee08279d35e33582\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-view:1.0.0-alpha32] C:\Users\Changgeun\.gradle\caches\transforms-3\7b8a621d718e9c7d3dc28e8eeffee37e\transformed\jetified-camera-view-1.0.0-alpha32\AndroidManifest.xml:20:5-23:145
+MERGED from [androidx.camera:camera-view:1.0.0-alpha32] C:\Users\Changgeun\.gradle\caches\transforms-3\7b8a621d718e9c7d3dc28e8eeffee37e\transformed\jetified-camera-view-1.0.0-alpha32\AndroidManifest.xml:20:5-23:145
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Changgeun\.gradle\caches\transforms-3\13b6a782a964e7caa1155c2e1c81f3d7\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Changgeun\.gradle\caches\transforms-3\13b6a782a964e7caa1155c2e1c81f3d7\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\ddc4b07ca2f0e3463c278b26f85734fa\transformed\jetified-camera-lifecycle-1.1.0-alpha12\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\ddc4b07ca2f0e3463c278b26f85734fa\transformed\jetified-camera-lifecycle-1.1.0-alpha12\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\46728e5b0e20022e3a81cc836e779737\transformed\jetified-camera-core-1.1.0-alpha12\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.camera:camera-core:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\46728e5b0e20022e3a81cc836e779737\transformed\jetified-camera-core-1.1.0-alpha12\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-tflite-support:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\450a1e2cf950b6b748485a07d2835a5b\transformed\jetified-play-services-tflite-support-16.0.0-beta03\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-support:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\450a1e2cf950b6b748485a07d2835a5b\transformed\jetified-play-services-tflite-support-16.0.0-beta03\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-java:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\c5de7aa4d3c9668b067217907cda4f4d\transformed\jetified-play-services-tflite-java-16.0.0-beta03\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-java:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\c5de7aa4d3c9668b067217907cda4f4d\transformed\jetified-play-services-tflite-java-16.0.0-beta03\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Changgeun\.gradle\caches\transforms-3\1b640bde69cb36240ae84ce9cbb1f635\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Changgeun\.gradle\caches\transforms-3\1b640bde69cb36240ae84ce9cbb1f635\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Changgeun\.gradle\caches\transforms-3\c76fd838b6665dbd1bb0a70468952b43\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Changgeun\.gradle\caches\transforms-3\c76fd838b6665dbd1bb0a70468952b43\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Changgeun\.gradle\caches\transforms-3\905554b970e7211da1f905a0e650fbba\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] C:\Users\Changgeun\.gradle\caches\transforms-3\905554b970e7211da1f905a0e650fbba\transformed\jetified-appcompat-resources-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f50f08abc2017b48e24771e7d3df7e73\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f50f08abc2017b48e24771e7d3df7e73\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f7659d8cf35088c3b815d6a5d948fa13\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f7659d8cf35088c3b815d6a5d948fa13\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\8f83d8b2f44b0b16c13521522884f461\transformed\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\8f83d8b2f44b0b16c13521522884f461\transformed\jetified-activity-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\74fbd6e14677532c19dd596d999f394b\transformed\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\74fbd6e14677532c19dd596d999f394b\transformed\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\9956c217432be8326fc650540191047e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\9956c217432be8326fc650540191047e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\3cabfb01f261f4c56b760f8264186547\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\3cabfb01f261f4c56b760f8264186547\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\54df326ac09e34ea085e75591b1db842\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\54df326ac09e34ea085e75591b1db842\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d788aa24c19b7266c3a6cd38a537c6b7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d788aa24c19b7266c3a6cd38a537c6b7\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\a6d89770d1c412bbe25d6f7d64d95bfe\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\a6d89770d1c412bbe25d6f7d64d95bfe\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.7.0] C:\Users\Changgeun\.gradle\caches\transforms-3\b5b515102bee44fc6dff79acb5a7df7c\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\Changgeun\.gradle\caches\transforms-3\b5b515102bee44fc6dff79acb5a7df7c\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f33df1b2c38e2038b9a87484735fd020\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\f33df1b2c38e2038b9a87484735fd020\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\756f195e486be7b61732cfc9d47dbf5a\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\756f195e486be7b61732cfc9d47dbf5a\transformed\jetified-savedstate-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\75be4897295b3aeada50ff899fb105dd\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\75be4897295b3aeada50ff899fb105dd\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\116364b37f139384424bde722aff2917\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\116364b37f139384424bde722aff2917\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\1ae6027347d4cd042ce7adad86af0651\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\1ae6027347d4cd042ce7adad86af0651\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\9b433fe66f27985203d27b869af683a3\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\9b433fe66f27985203d27b869af683a3\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Changgeun\.gradle\caches\transforms-3\d75e87c118de26c3fe2850e69b33dc3b\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Changgeun\.gradle\caches\transforms-3\d75e87c118de26c3fe2850e69b33dc3b\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Changgeun\.gradle\caches\transforms-3\4805d73964370903f7f39ac244155852\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Changgeun\.gradle\caches\transforms-3\4805d73964370903f7f39ac244155852\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\149eb335e4d6b0305b591a6eab3c44a1\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\149eb335e4d6b0305b591a6eab3c44a1\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\58c4ea0a669573fa86828faa78cd86c0\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\58c4ea0a669573fa86828faa78cd86c0\transformed\lifecycle-livedata-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\a14668b95dae0221741ceeb8e396e91b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Changgeun\.gradle\caches\transforms-3\a14668b95dae0221741ceeb8e396e91b\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ca815ffe893438ddb9d420ef02c2efaa\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ca815ffe893438ddb9d420ef02c2efaa\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\5548a8793fd4c2a52b1dfabbec547af4\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\5548a8793fd4c2a52b1dfabbec547af4\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\a4867bd8c91c118953505a5929ef965f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\a4867bd8c91c118953505a5929ef965f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\83f26495205b7224c79726d01e34567c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\83f26495205b7224c79726d01e34567c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.0.0-nightly-20220719.045912-252] C:\Users\Changgeun\.gradle\caches\transforms-3\5c3964c1a5ad433aa3a84edc22e1ca41\transformed\jetified-tensorflow-lite-support-api-0.0.0-nightly-20220719.045912-252\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support-api:0.0.0-nightly-20220719.045912-252] C:\Users\Changgeun\.gradle\caches\transforms-3\5c3964c1a5ad433aa3a84edc22e1ca41\transformed\jetified-tensorflow-lite-support-api-0.0.0-nightly-20220719.045912-252\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-20220719.054020-244] C:\Users\Changgeun\.gradle\caches\transforms-3\7465fef95c478b9442c832117019f8d3\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-20220719.054020-244\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-20220719.054020-244] C:\Users\Changgeun\.gradle\caches\transforms-3\7465fef95c478b9442c832117019f8d3\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-20220719.054020-244\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:0.0.0-nightly-20220719.054031-1] C:\Users\Changgeun\.gradle\caches\transforms-3\c6fa5d03c20e93562e126e17ec84e2b8\transformed\jetified-tensorflow-lite-gpu-api-0.0.0-nightly-20220719.054031-1\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:0.0.0-nightly-20220719.054031-1] C:\Users\Changgeun\.gradle\caches\transforms-3\c6fa5d03c20e93562e126e17ec84e2b8\transformed\jetified-tensorflow-lite-gpu-api-0.0.0-nightly-20220719.054031-1\AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Changgeun\.gradle\caches\transforms-3\243a427cab05e431ec539530c12b3e5d\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Changgeun\.gradle\caches\transforms-3\243a427cab05e431ec539530c12b3e5d\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml:21:5-23:41
+INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml:21:5-23:41
+	tools:overrideLibrary
+		ADDED from [androidx.camera:camera-view:1.0.0-alpha32] C:\Users\Changgeun\.gradle\caches\transforms-3\7b8a621d718e9c7d3dc28e8eeffee37e\transformed\jetified-camera-view-1.0.0-alpha32\AndroidManifest.xml:23:9-142
+	android:targetSdkVersion
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:24:9-38
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:23:9-35
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml:22:9-35
+		MERGED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml:22:9-35
+		INJECTED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\kotlin\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:26:5-60
+	android:name
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:26:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:29:5-65
+	android:name
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:29:22-62
+application
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:31:5-52:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Changgeun\.gradle\caches\transforms-3\87dd893cb9f7927bee08279d35e33582\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Changgeun\.gradle\caches\transforms-3\87dd893cb9f7927bee08279d35e33582\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.camera:camera-core:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\46728e5b0e20022e3a81cc836e779737\transformed\jetified-camera-core-1.1.0-alpha12\AndroidManifest.xml:25:5-36:19
+MERGED from [androidx.camera:camera-core:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\46728e5b0e20022e3a81cc836e779737\transformed\jetified-camera-core-1.1.0-alpha12\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:8:5-22:19
+MERGED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:8:5-22:19
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:8:5-22:19
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:8:5-22:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Changgeun\.gradle\caches\transforms-3\1b640bde69cb36240ae84ce9cbb1f635\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\Changgeun\.gradle\caches\transforms-3\1b640bde69cb36240ae84ce9cbb1f635\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\Changgeun\.gradle\caches\transforms-3\b5b515102bee44fc6dff79acb5a7df7c\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\Changgeun\.gradle\caches\transforms-3\b5b515102bee44fc6dff79acb5a7df7c\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Changgeun\.gradle\caches\transforms-3\4805d73964370903f7f39ac244155852\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Changgeun\.gradle\caches\transforms-3\4805d73964370903f7f39ac244155852\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\149eb335e4d6b0305b591a6eab3c44a1\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\149eb335e4d6b0305b591a6eab3c44a1\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-20220719.054020-244] C:\Users\Changgeun\.gradle\caches\transforms-3\7465fef95c478b9442c832117019f8d3\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-20220719.054020-244\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:0.0.0-nightly-20220719.054020-244] C:\Users\Changgeun\.gradle\caches\transforms-3\7465fef95c478b9442c832117019f8d3\transformed\jetified-tensorflow-lite-api-0.0.0-nightly-20220719.054020-244\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:0.0.0-nightly-20220719.054031-1] C:\Users\Changgeun\.gradle\caches\transforms-3\c6fa5d03c20e93562e126e17ec84e2b8\transformed\jetified-tensorflow-lite-gpu-api-0.0.0-nightly-20220719.054031-1\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-gpu-api:0.0.0-nightly-20220719.054031-1] C:\Users\Changgeun\.gradle\caches\transforms-3\c6fa5d03c20e93562e126e17ec84e2b8\transformed\jetified-tensorflow-lite-gpu-api-0.0.0-nightly-20220719.054031-1\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Changgeun\.gradle\caches\transforms-3\243a427cab05e431ec539530c12b3e5d\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Changgeun\.gradle\caches\transforms-3\243a427cab05e431ec539530c12b3e5d\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\Changgeun\.gradle\caches\transforms-3\b5b515102bee44fc6dff79acb5a7df7c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:36:9-35
+	android:label
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:34:9-41
+	tools:ignore
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:39:9-60
+	android:roundIcon
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:35:9-54
+	android:icon
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:33:9-43
+	android:allowBackup
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:38:9-40
+	android:taskAffinity
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:37:9-32
+activity#org.tensorflow.lite.examples.classification.playservices.CameraActivity
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:45:13-36
+	android:rotationAnimation
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:43:13-49
+	tools:targetApi
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:44:13-32
+	android:name
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:42:13-99
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:46:13-49:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:47:17-68
+	android:name
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:48:17-76
+	android:name
+		ADDED from C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:48:27-74
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:26:9-35:19
+MERGED from [androidx.camera:camera-core:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\46728e5b0e20022e3a81cc836e779737\transformed\jetified-camera-core-1.1.0-alpha12\AndroidManifest.xml:31:9-35:45
+MERGED from [androidx.camera:camera-core:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\46728e5b0e20022e3a81cc836e779737\transformed\jetified-camera-core-1.1.0-alpha12\AndroidManifest.xml:31:9-35:45
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:31:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:28:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:29:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:30:13-42
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:27:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:32:13-34:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:34:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:33:17-103
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:9:9-21:19
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:9:9-21:19
+MERGED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:9:9-21:19
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:11:13-36
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:12:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:10:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:14:13-16:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:15:17-94
+	android:name
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:15:25-91
+meta-data#tflite_gpu_dynamite:222612000:required
+ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:18:13-20:36
+	android:value
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:20:17-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:19:17-70
+meta-data#tflite_dynamite:3:required
+ADDED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:18:13-20:36
+	android:value
+		ADDED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:20:17-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:19:17-58
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\149eb335e4d6b0305b591a6eab3c44a1\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\149eb335e4d6b0305b591a6eab3c44a1\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78

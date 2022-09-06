@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-anydpi-v24_ic_shutter_normal.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-anydpi-v24\\ic_shutter_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\layout_activity_camera.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\layout\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xhdpi_ic_shutter_pressed.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xhdpi\\ic_shutter_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-hdpi_ic_shutter_focused.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-hdpi\\ic_shutter_focused.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xxxhdpi_ic_shutter_focused.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xxxhdpi\\ic_shutter_focused.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xxhdpi_ic_shutter_normal.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xxhdpi\\ic_shutter_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\layout-land_activity_camera.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\layout-land\\activity_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xhdpi_ic_shutter_focused.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xhdpi\\ic_shutter_focused.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-mdpi_ic_shutter_normal.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-mdpi\\ic_shutter_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xhdpi_ic_shutter_normal.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xhdpi\\ic_shutter_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-ldpi_ic_shutter_pressed.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-ldpi\\ic_shutter_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-anydpi-v24_ic_shutter_pressed.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-anydpi-v24\\ic_shutter_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-anydpi-v24_ic_shutter_focused.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-anydpi-v24\\ic_shutter_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xxhdpi_ic_shutter_focused.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xxhdpi\\ic_shutter_focused.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xxhdpi_ic_shutter_pressed.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xxhdpi\\ic_shutter_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xxxhdpi_ic_shutter_pressed.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xxxhdpi\\ic_shutter_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-ldpi_ic_shutter_focused.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-ldpi\\ic_shutter_focused.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-mdpi_ic_shutter_pressed.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-mdpi\\ic_shutter_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable_shape_rectangle.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\drawable\\shape_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable_ic_shutter.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\drawable\\ic_shutter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-hdpi_ic_shutter_normal.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-hdpi\\ic_shutter_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-hdpi_ic_shutter_pressed.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-hdpi\\ic_shutter_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-mdpi_ic_shutter_focused.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-mdpi\\ic_shutter_focused.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-xxxhdpi_ic_shutter_normal.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-xxxhdpi\\ic_shutter_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable-ldpi_ic_shutter_normal.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\generated\\res\\pngs\\kotlin\\debug\\drawable-ldpi\\ic_shutter_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\build\\intermediates\\merged_res\\kotlinDebug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Changgeun\\AndroidStudioProjects\\examples\\lite\\examples\\image_classification\\android_play_services\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

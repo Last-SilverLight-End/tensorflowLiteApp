@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright 2020 Google LLC
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     https://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="org.tensorflow.lite.examples.classification.playservices.kotlin"
+19    android:versionCode="1"
+20    android:versionName="0.0.1-kotlin" >
+21<!--  ImageClassificationHelper class uses android.util.Size(), which is available after SDK 21. -->
+22    <uses-sdk
+22-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:22:5-24:41
+23        android:minSdkVersion="21"
+23-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:23:9-35
+24        android:targetSdkVersion="31" />
+24-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:24:9-38
+25    <!-- Declare features -->
+26    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
+26-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:26:5-60
+26-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:26:19-57
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:29:5-65
+27-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:29:22-62
+28
+29    <application
+29-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:31:5-52:19
+30        android:allowBackup="true"
+30-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:32:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] C:\Users\Changgeun\.gradle\caches\transforms-3\b5b515102bee44fc6dff79acb5a7df7c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:33:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:34:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:35:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:36:9-35
+37        android:taskAffinity=""
+37-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:37:9-32
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:38:9-40
+40        <activity
+40-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:41:9-50:20
+41            android:name="org.tensorflow.lite.examples.classification.playservices.CameraActivity"
+41-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:42:13-99
+42            android:exported="true"
+42-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:45:13-36
+43            android:rotationAnimation="seamless" >
+43-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:43:13-49
+44            <intent-filter>
+44-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:46:13-49:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:47:17-68
+45-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:47:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:48:17-76
+47-->C:\Users\Changgeun\AndroidStudioProjects\examples\lite\examples\image_classification\android_play_services\app\src\main\AndroidManifest.xml:48:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:26:9-35:19
+52            android:name="androidx.camera.core.impl.MetadataHolderService"
+52-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:27:13-75
+53            android:enabled="false"
+53-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:28:13-36
+54            android:exported="false" >
+54-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:29:13-37
+55            <meta-data
+55-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:32:13-34:89
+56                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+56-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:33:17-103
+57                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+57-->[androidx.camera:camera-camera2:1.1.0-alpha12] C:\Users\Changgeun\.gradle\caches\transforms-3\b1af8133714fa7e9d5ee84441066b8ac\transformed\jetified-camera-camera2-1.1.0-alpha12\AndroidManifest.xml:34:17-86
+58        </service>
+59        <service
+59-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:9:9-21:19
+60            android:name="com.google.android.gms.metadata.ModuleDependencies"
+60-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:10:13-78
+61            android:enabled="false"
+61-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:11:13-36
+62            android:exported="false" >
+62-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:12:13-37
+63            <intent-filter>
+63-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:14:13-16:29
+64                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+64-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:15:17-94
+64-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:15:25-91
+65            </intent-filter>
+66
+67            <meta-data
+67-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:18:13-20:36
+68                android:name="tflite_gpu_dynamite:222612000:required"
+68-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:19:17-70
+69                android:value="" />
+69-->[com.google.android.gms:play-services-tflite-gpu:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\5990acb37c13f2fe651ba1608c55adc5\transformed\jetified-play-services-tflite-gpu-16.0.0-beta03\AndroidManifest.xml:20:17-33
+70            <meta-data
+70-->[com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:18:13-20:36
+71                android:name="tflite_dynamite:3:required"
+71-->[com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:19:17-58
+72                android:value="" />
+72-->[com.google.android.gms:play-services-tflite-impl:16.0.0-beta03] C:\Users\Changgeun\.gradle\caches\transforms-3\f27aa789e90d88198fb08b13c66416f6\transformed\jetified-play-services-tflite-impl-16.0.0-beta03\AndroidManifest.xml:20:17-33
+73        </service>
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\d3444d68f98115e7c09ae960ac0da967\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+79
+80        <meta-data
+80-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+81            android:name="com.google.android.gms.version"
+81-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+82            android:value="@integer/google_play_services_version" />
+82-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Changgeun\.gradle\caches\transforms-3\ebaa7be9e779a9ec72f4cb1dd0f6fcf5\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+86            android:authorities="org.tensorflow.lite.examples.classification.playservices.kotlin.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Changgeun\.gradle\caches\transforms-3\fc09c629f2c87ab5e347145ffdcd737b\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Changgeun\.gradle\caches\transforms-3\90bbc230e74b414f29b3cd28b94f23d7\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+94        </provider>
+95    </application>
+96
+97</manifest>

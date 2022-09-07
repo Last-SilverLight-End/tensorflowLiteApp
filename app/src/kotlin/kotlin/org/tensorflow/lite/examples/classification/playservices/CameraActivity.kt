@@ -259,7 +259,15 @@ class CameraActivity : AppCompatActivity() {
             else {
             activityCameraBinding.cameraCaptureButton.visibility = View.GONE
             "${"%.2f".format(it.confidence)} ${it.title}"
-           // "Name : Model of serving"
+           // "Name : Model of serving\n
+            // material stone \n
+            // Construction Date : 2010.05.20
+            // User view ranking : 9
+            // Description:
+            // The founding spiriti of Sejong University is virtue,
+            // creativity, service and practice. To sum it up, it is
+            // creative service. True service is serving all people humbly.
+            // Jesus himself set the example by washing the feet of his disciples."
           }
         }
 

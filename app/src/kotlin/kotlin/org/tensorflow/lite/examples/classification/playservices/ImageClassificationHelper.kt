@@ -144,8 +144,8 @@ class ImageClassificationHelper(context: Context, private val maxResult: Int, pr
     private val TAG = ImageClassificationHelper::class.java.simpleName
 
     // ClassifierFloatEfficientNet model
-    private const val MODEL_PATH = "efficientnet-lite0-fp32.tflite"
-    private const val LABELS_PATH = "labels_without_background.txt"
+    private const val MODEL_PATH = "model_unquant.tflite"
+    private const val LABELS_PATH = "labels.txt"
     // Float model does not need dequantization in the post-processing. Setting mean and std as
     // 0.0f and 1.0f, respectively, to bypass the normalization
     private const val PROBABILITY_MEAN = 0.0f

@@ -251,23 +251,24 @@ class CameraActivity : AppCompatActivity() {
         recognitions.subList(0, MAX_REPORT).joinToString(separator = "\n") {
           /**if(button touched)*/
           // 만약 일정 정도를 넘기면 이렇게 된다.
-          if(it.confidence >=0.6f )
+          if(it.confidence >=0.6f)
           {
             activityCameraBinding.cameraCaptureButton.visibility = View.VISIBLE
+            activityCameraBinding.textPrediction.text = "1"
             "ID : 1\n Name: Model of serving"
           }
+            else if(it.confidence >=0.6f && (activityCameraBinding.textPrediction.text =="1") ){
+            activityCameraBinding.cameraCaptureButton.visibility = View.VISIBLE
+            activityCameraBinding.textPrediction.text = "2"
+            //"${"%.2f".format(it.confidence)} ${it.title}"
+            "Name : Model of serving material stone Construction Date : 2010.05.20 User view ranking : 9 Description: The founding spiriti of Sejong University is virtue, creativity, service and practice. To sum it up, it is creative service. True service is serving all people humbly. Jesus himself set the example by washing the feet of his disciples."
+
+          }
             else {
-            activityCameraBinding.cameraCaptureButton.visibility = View.GONE
-            "${"%.2f".format(it.confidence)} ${it.title}"
-           // "Name : Model of serving\n
-            // material stone \n
-            // Construction Date : 2010.05.20
-            // User view ranking : 9
-            // Description:
-            // The founding spiriti of Sejong University is virtue,
-            // creativity, service and practice. To sum it up, it is
-            // creative service. True service is serving all people humbly.
-            // Jesus himself set the example by washing the feet of his disciples."
+            activityCameraBinding.cameraCaptureButton.visibility = View.VISIBLE
+            activityCameraBinding.textPrediction.text = "UNKNOWN"
+            //"${"%.2f".format(it.confidence)} ${it.title}"
+            "Name : Model of serving material stone Construction Date : 2010.05.20 User view ranking : 9 Description: The founding spiriti of Sejong University is virtue, creativity, service and practice. To sum it up, it is creative service. True service is serving all people humbly. Jesus himself set the example by washing the feet of his disciples."
           }
         }
 

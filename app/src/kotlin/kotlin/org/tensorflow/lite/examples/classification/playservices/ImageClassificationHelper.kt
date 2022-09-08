@@ -37,6 +37,8 @@ import org.tensorflow.lite.support.image.ops.ResizeWithCropOrPadOp
 import org.tensorflow.lite.support.image.ops.Rot90Op
 import org.tensorflow.lite.support.label.TensorLabel
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
+import java.lang.Thread.sleep
+import kotlin.concurrent.thread
 
 /** Helper class used to communicate between our app and the TF image classification model */
 class ImageClassificationHelper(context: Context, private val maxResult: Int, private val useGpu: Boolean) : Closeable {
@@ -85,17 +87,20 @@ class ImageClassificationHelper(context: Context, private val maxResult: Int, pr
   /** Classifies the input bitmapBuffer. */
   fun classify(bitmapBuffer: Bitmap, imageRotationDegrees: Int): List<Recognition> {
     // Loads the input bitmapBuffer
+
     tfInputBuffer = loadImage(bitmapBuffer, imageRotationDegrees)
     Log.d(TAG, "tensorSize: ${tfInputBuffer.width} x ${tfInputBuffer.height}")
 
-    // Runs the inference call
-    interpreter.run(tfInputBuffer.buffer, outputProbabilityBuffer.buffer.rewind())
+
+        interpreter.run(tfInputBuffer.buffer, outputProbabilityBuffer.buffer.rewind())
+
 
     // Gets the map of label and probability
     val labeledProbability =
       TensorLabel(labels, probabilityProcessor.process(outputProbabilityBuffer)).mapWithFloatValue
 
     return getTopKProbability(labeledProbability)
+
   }
 
   /** Releases TFLite resources if initialized. */
@@ -120,6 +125,7 @@ class ImageClassificationHelper(context: Context, private val maxResult: Int, pr
                 ResizeOp.ResizeMethod.NEAREST_NEIGHBOR
               )
             )
+                  // 여기에서 고치는거 아닌거 같고 이미지 업로드 부분이여서 그래서 프로세싱 봐야할듯
             .add(Rot90Op(-imageRotationDegrees / 90))
             .add(preprocessNormalizeOp)
             .build()

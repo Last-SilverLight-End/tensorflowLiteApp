@@ -42,6 +42,7 @@
         android:layout_marginTop="@dimen/margin_xsmall"
         android:text="@string/unknown"
         android:textAllCaps="true"
+        android:textSize="13sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

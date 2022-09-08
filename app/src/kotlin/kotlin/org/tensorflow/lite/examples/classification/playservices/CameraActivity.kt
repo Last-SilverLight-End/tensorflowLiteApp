@@ -25,6 +25,8 @@ import android.graphics.Matrix
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.view.View.GONE
+import android.view.View.VISIBLE
 import androidx.appcompat.app.AppCompatActivity
 import androidx.camera.core.AspectRatio
 import androidx.camera.core.CameraSelector
@@ -42,6 +44,7 @@ import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 import kotlin.random.Random
 import org.tensorflow.lite.examples.classification.playservices.databinding.ActivityCameraBinding
+import java.lang.Thread.sleep
 
 /** Activity that displays the camera and performs object detection on the incoming frames */
 class CameraActivity : AppCompatActivity() {
@@ -60,6 +63,7 @@ class CameraActivity : AppCompatActivity() {
 
   private var pauseAnalysis = false
   private var imageRotationDegrees: Int = 0
+  private var changeInfo : Int = 0
   private var useGpu = false;
 
   // Initialize TFLite once. Must be called before creating the classifier
@@ -84,6 +88,19 @@ class CameraActivity : AppCompatActivity() {
   }
   private var classifier: ImageClassificationHelper? = null
 
+  private fun View.visibilityChanged(action: (View) -> Unit) {
+    this.viewTreeObserver.addOnGlobalLayoutListener {
+      val newVis: Int = this.visibility
+      if (this.tag as Int? != newVis) {
+        this.tag = this.visibility
+
+        // visibility has changed
+        action(this)
+      }
+    }
+  }
+
+  @SuppressLint("SetTextI18n")
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     activityCameraBinding = ActivityCameraBinding.inflate(layoutInflater)
@@ -98,35 +115,40 @@ class CameraActivity : AppCompatActivity() {
 // isenabled 를 true 로 , pauseAnalysis를 true 로 , view visible 를 true로
 
     // pauseAnalysis는 항상 true 로 이미지 나오는건 이건 뭐 수정하면 되고
+
+    activityCameraBinding.cameraCaptureButton.visibilityChanged { view ->
+      when (view.visibility) {
+        VISIBLE ->  {
+          activityCameraBinding.textPrediction.text = "ID : 1 Name: Model of serving"
+          changeInfo = 0
+        /* Do something here */ }
+        GONE -> {
+          activityCameraBinding.textPrediction.text = "UNKNOWN"
+        /* or here */ }
+      }
+
+    }
+
     activityCameraBinding.cameraCaptureButton.setOnClickListener {
       // Disable all camera controls
       it.isEnabled = true
-      if (pauseAnalysis) {
-        // If image analysis is in paused state, resume it
-        pauseAnalysis = true
-        activityCameraBinding.imagePredicted.visibility = View.VISIBLE
-      } else {
-        // Otherwise, pause image analysis and freeze image
-        pauseAnalysis = true
-        val matrix =
-          Matrix().apply {
-            postRotate(imageRotationDegrees.toFloat())
-            if (isFrontFacing) postScale(-1f, 1f)
-          }
-        val uprightImage =
-          Bitmap.createBitmap(
-            bitmapBuffer,
-            0,
-            0,
-            bitmapBuffer.width,
-            bitmapBuffer.height,
-            matrix,
-            true
-          )
-        activityCameraBinding.imagePredicted.setImageBitmap(uprightImage)
-        activityCameraBinding.imagePredicted.visibility = View.VISIBLE
-      }
 
+      if (changeInfo == 0 ) {
+        // If image analysis is in paused state, resume it
+        activityCameraBinding.textPrediction.text = "Name : Model of serving material stone Construction \n " +
+                "Date : 2010.05.20 User view ranking : 9 " +
+                "\n Description: The founding spirit of Sejong University is virtue, creativity, service and practice." +
+                "\n To sum it up, it is creative service. \n" +
+                " True service is serving all people humbly. \n" +
+                " Jesus himself set the example by washing the feet of his disciples."
+        changeInfo =1
+        //pauseAnalysis = false
+      }
+      else if(changeInfo==1)
+      {
+        activityCameraBinding.textPrediction.text = "ID : 1 Name: Model of serving"
+        changeInfo =0
+      }
       // Re-enable camera controls
       it.isEnabled = true
     }
@@ -136,7 +158,7 @@ class CameraActivity : AppCompatActivity() {
     // Terminate all outstanding analyzing jobs (if there is any).
     executor.apply {
       shutdown()
-      awaitTermination(1000, TimeUnit.MILLISECONDS)
+      awaitTermination(1000, TimeUnit.SECONDS)
     }
     // Release TFLite resources
     classifier?.close()
@@ -198,12 +220,12 @@ class CameraActivity : AppCompatActivity() {
               reportRecognition(recognitions)
 
               // Compute the FPS of the entire pipeline
-              val frameCount = 10
+              val frameCount = 1000
               if (++frameCounter % frameCount == 0) {
                 frameCounter = 0
                 val now = System.currentTimeMillis()
                 val delta = now - lastFpsTimestamp
-                val fps = 1000 * frameCount.toFloat() / delta
+                val fps = 100000 * frameCount.toFloat() / delta
                 Log.d(TAG, "FPS: ${"%.02f".format(fps)}")
                 lastFpsTimestamp = now
               }
@@ -254,26 +276,23 @@ class CameraActivity : AppCompatActivity() {
           if(it.confidence >=0.6f)
           {
             activityCameraBinding.cameraCaptureButton.visibility = View.VISIBLE
-            activityCameraBinding.textPrediction.text = "1"
-            "ID : 1\n Name: Model of serving"
-          }
-            else if(it.confidence >=0.6f && (activityCameraBinding.textPrediction.text =="1") ){
-            activityCameraBinding.cameraCaptureButton.visibility = View.VISIBLE
-            activityCameraBinding.textPrediction.text = "2"
-            //"${"%.2f".format(it.confidence)} ${it.title}"
-            "Name : Model of serving material stone Construction Date : 2010.05.20 User view ranking : 9 Description: The founding spiriti of Sejong University is virtue, creativity, service and practice. To sum it up, it is creative service. True service is serving all people humbly. Jesus himself set the example by washing the feet of his disciples."
+            //activityCameraBinding.textPrediction.text = "1"
 
+            "%s".format(activityCameraBinding.textPrediction.text)
+            //"ID : 1 Name: Model of serving"
           }
             else {
-            activityCameraBinding.cameraCaptureButton.visibility = View.VISIBLE
-            activityCameraBinding.textPrediction.text = "UNKNOWN"
+            activityCameraBinding.cameraCaptureButton.visibility = View.GONE
+            "%s".format(activityCameraBinding.textPrediction.text)
             //"${"%.2f".format(it.confidence)} ${it.title}"
-            "Name : Model of serving material stone Construction Date : 2010.05.20 User view ranking : 9 Description: The founding spiriti of Sejong University is virtue, creativity, service and practice. To sum it up, it is creative service. True service is serving all people humbly. Jesus himself set the example by washing the feet of his disciples."
+            //"Name : Model of serving material stone Construction Date : 2010.05.20 User view ranking : 9 Description: The founding spiriti of Sejong University is virtue, creativity, service and practice. To sum it up, it is creative service. True service is serving all people humbly. Jesus himself set the example by washing the feet of his disciples."
           }
         }
 
       // Make sure all UI elements are visible
       activityCameraBinding.textPrediction.visibility = View.VISIBLE
+
+
     }
 
   override fun onResume() {
